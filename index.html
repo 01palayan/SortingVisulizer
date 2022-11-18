@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sorting Visulizer 2022</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png">
+  </head>
+  <body>
+
+  <div class="container">
+    <div class="logo">
+      <h1>Sorting Visulizer</h1>
+    </div>
+    <div>
+      <button class="mobile_menu" type="button"></button>
+    </div>
+
+    <div class="nav_bar">
+      <div class="nav_item">
+        <label>Select Range</label>
+        <input type="range" class="num_of_bars" min="20" max="50" value="20">
+      </div>
+      <div class="nav_item">
+        <label>Select Speed</label>
+        <input type="range" class="speed" min="10" max="100" value="10">
+      </div>
+      <div>
+        <select class="algo nav_item">
+          <option value="bubble">Bubble Sort</option>
+          <option value="quick">Quick Sort</option>
+        </select>
+      </div>
+
+    </div>
+    <div>
+      <button type="button" class="start_btn" id="sort" name="sort">Start</button>
+      <button type="button" class="start_btn" id="reset" name="reset">Random Array</button>
+    </div>
+  </div>
+
+  <div class="parentDiv"></div>
+
+  <script src="index.js"></script>
+  </body>
+  <footer>
+    <div class="copy">
+      &copy; Copyright 2022 SortingVisulizer
+    </div>
+  </footer>
+</html>
